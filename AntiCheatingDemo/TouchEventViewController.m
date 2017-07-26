@@ -66,22 +66,76 @@
     
     NSSet *allTouches = [ev allTouches];
     
-    UITouch *touch1 = [allTouches anyObject];
+    UITouch *touch = [allTouches anyObject];
     
-    CGPoint locInSelf = [touch1 locationInView:[touch1 view]];
-    CGPoint locInWin = [touch1 locationInView:[touch1 view]];
-    float major = touch1.majorRadius;
-    float majorToler = touch1.majorRadiusTolerance;
-    
-    
+    CGPoint locInSelf = [touch locationInView:[touch view]];
     NSLog(@"    touch.locationInView = {%2.3f, %2.3f}", locInSelf.x, locInSelf.y);
+    CGPoint locInWin = [touch locationInView:[touch view]];
     NSLog(@"    touch.locationInWin = {%2.3f, %2.3f}", locInWin.x, locInWin.y);
-    NSLog(@"    touch.phase = %ld", (long)touch1.phase);
-    NSLog(@"    touch.tapCount = %lu", (unsigned long)touch1.tapCount);
+    float major = touch.majorRadius;
     NSLog(@"major :%f",major);
+    float majorToler = touch.majorRadiusTolerance;
     NSLog(@"majorToler : %f",majorToler);
+    NSLog(@"    touch.tapCount = %lu", (unsigned long)touch.tapCount);// 触控次数
+    NSLog(@"touch.timestamp : %f",touch.timestamp); //触摸时间
+    switch (touch.type) {
+        case UITouchTypeDirect: //直接触摸屏幕
+            NSLog(@"touch.type : UITouchTypeDirect");
+            break;
+        case UITouchTypeIndirect: //间接触摸屏幕
+            NSLog(@"touch.type : UITouchTypeIndirect");
+            break;
+        case UITouchTypeStylus: // 笔触控
+            NSLog(@"touch.type : UITouchTypeStylus");
+            break;
+        default:
+            break;
+    }
+    NSLog(@"    touch.phase = %ld", (long)touch.phase);
+  
+    switch (touch.phase) {
+        case UITouchPhaseBegan:  // 手指触摸表面
+            NSLog(@"touch.phase : UITouchPhaseBegan");
+            break;
+        case UITouchPhaseMoved: // 手指在表面上移动
+            NSLog(@"touch.phase : UITouchPhaseMoved");
+            break;
+        case UITouchPhaseStationary: // 手指长按或按下未离开表面
+            NSLog(@"touch.phase : UITouchPhaseStationary");
+            break;
+        case UITouchPhaseEnded: // 手指离开表面
+            NSLog(@"touch.phase : UITouchPhaseEnded");
+            break;
+        case UITouchPhaseCancelled: // 取消监控触摸
+            NSLog(@"touch.phase : UITouchPhaseCancelled");
+            break;
+            
+        default:
+            break;
+    }
     
-    _textview.text =[NSString stringWithFormat:@"%@,\n touch.locationInView = {%2.3f, %2.3f} \n touch.locationInWin = {%2.3f, %2.3f} \n touch.phase = %ld \n major = %f \n majorToler = %f",_textview.text,locInSelf.x,locInSelf.y,locInWin.x,locInWin.y,touch1.phase,major,majorToler];
+    float force = [touch force]; // 触控力度
+    NSLog(@"force : %f",force);
+    float maximumPossibleForce = [touch maximumPossibleForce]; // 最大触控力度
+    NSLog(@"maximumPossibleForce : %f",maximumPossibleForce);
+    float altitudeAngle = [touch altitudeAngle];  // 书写弧度
+    NSLog(@"altitudeAngle : %f",altitudeAngle);
+    
+    UITouchProperties estimatedProperties = touch.estimatedProperties; //
+    NSLog(@"estimatedProperties : %ld",(long)estimatedProperties);
+    
+    UITouchProperties estimatedPropertiesExpectingUpdates = touch.estimatedPropertiesExpectingUpdates; //
+    NSLog(@"estimatedPropertiesExpectingUpdates : %ld",(long)estimatedPropertiesExpectingUpdates);
+    
+    NSNumber *estimationUpdateIndex = touch.estimationUpdateIndex; //
+    NSLog(@"estimationUpdateIndex : %@",estimationUpdateIndex);
+    
+    NSArray *gestureRecognizers = [touch gestureRecognizers]; //
+    NSLog(@"gestureRecognizers : %@",gestureRecognizers);
+    
+    
+    
+    _textview.text =[NSString stringWithFormat:@"%@,\n touch.locationInView = {%2.3f, %2.3f} \n touch.locationInWin = {%2.3f, %2.3f} \n touch.phase = %ld \n major = %f \n majorToler = %f",_textview.text,locInSelf.x,locInSelf.y,locInWin.x,locInWin.y,touch.phase,major,majorToler];
 }
 
 
