@@ -422,7 +422,7 @@
     CFArrayRef myArray = CNCopySupportedInterfaces();
     if (myArray != nil) {
         CFDictionaryRef wifi_Dict =CNCopyCurrentNetworkInfo(CFArrayGetValueAtIndex(myArray, 0)); //获取当前连接WiFi信息
-        NSDictionary *wifiDict =(__bridge NSDictionary *)wifi_Dict;  /*   BSSID = "b8:f8:83:c5:72:54"; SSID = Terminator1; SSIDDATA = <5465726d 696e6174 6f7231>;*/
+        NSDictionary *wifiDict =(__bridge NSDictionary *)wifi_Dict;  /*   BSSID = "b8:f8:83:c5:72:58"; SSID = TPlin --xx; SSIDDATA = <5465wwwd 696e6174 6f7231>;*/
         NSLog(@"wifi_Dict: %@",wifiDict);
     }
     
