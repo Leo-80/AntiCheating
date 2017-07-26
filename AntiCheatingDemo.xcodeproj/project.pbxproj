@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B344E2C91F0C86EC00F3AF9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E2C81F0C86EC00F3AF9C /* main.m */; };
+		B344E2CC1F0C86EC00F3AF9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E2CB1F0C86EC00F3AF9C /* AppDelegate.m */; };
+		B344E2CF1F0C86EC00F3AF9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E2CE1F0C86EC00F3AF9C /* ViewController.m */; };
+		B344E2D21F0C86EC00F3AF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B344E2D01F0C86EC00F3AF9C /* Main.storyboard */; };
+		B344E2D41F0C86EC00F3AF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B344E2D31F0C86EC00F3AF9C /* Assets.xcassets */; };
+		B344E2D71F0C86EC00F3AF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B344E2D51F0C86EC00F3AF9C /* LaunchScreen.storyboard */; };
+		B344E2E21F0C86EC00F3AF9C /* AntiCheatingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E2E11F0C86EC00F3AF9C /* AntiCheatingDemoTests.m */; };
+		B344E2ED1F0C86EC00F3AF9C /* AntiCheatingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E2EC1F0C86EC00F3AF9C /* AntiCheatingDemoUITests.m */; };
+		B344E2FE1F0C870A00F3AF9C /* InnoRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E2FA1F0C870A00F3AF9C /* InnoRuntime.m */; };
+		B344E2FF1F0C870A00F3AF9C /* UIApplication+InnoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E2FB1F0C870A00F3AF9C /* UIApplication+InnoEvent.m */; };
+		B344E3031F0C8CD900F3AF9C /* TouchEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E3021F0C8CD900F3AF9C /* TouchEventViewController.m */; };
+		B344E3091F0C94AB00F3AF9C /* JailBrokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344E3081F0C94AB00F3AF9C /* JailBrokenViewController.swift */; };
+		B344E3151F0E148E00F3AF9C /* JailBroken_CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B344E3141F0E148E00F3AF9C /* JailBroken_CViewController.m */; };
+		B36739291F20A7C2005D1084 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B36739281F20A7C2005D1084 /* Reachability.m */; };
+		B3862B641F204EA50028E6C7 /* BaseInfo_CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3862B631F204EA50028E6C7 /* BaseInfo_CViewController.m */; };
+		B3AE2B811F1331C200B034D8 /* BaseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AE2B801F1331C200B034D8 /* BaseInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B344E2DE1F0C86EC00F3AF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B344E2BC1F0C86EC00F3AF9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B344E2C31F0C86EC00F3AF9C;
+			remoteInfo = AntiCheatingDemo;
+		};
+		B344E2E91F0C86EC00F3AF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B344E2BC1F0C86EC00F3AF9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B344E2C31F0C86EC00F3AF9C;
+			remoteInfo = AntiCheatingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B344E2C41F0C86EC00F3AF9C /* AntiCheatingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntiCheatingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B344E2C81F0C86EC00F3AF9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B344E2CA1F0C86EC00F3AF9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B344E2CB1F0C86EC00F3AF9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B344E2CD1F0C86EC00F3AF9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B344E2CE1F0C86EC00F3AF9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B344E2D11F0C86EC00F3AF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B344E2D31F0C86EC00F3AF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B344E2D61F0C86EC00F3AF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B344E2D81F0C86EC00F3AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B344E2DD1F0C86EC00F3AF9C /* AntiCheatingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiCheatingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B344E2E11F0C86EC00F3AF9C /* AntiCheatingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiCheatingDemoTests.m; sourceTree = "<group>"; };
+		B344E2E31F0C86EC00F3AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B344E2E81F0C86EC00F3AF9C /* AntiCheatingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiCheatingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B344E2EC1F0C86EC00F3AF9C /* AntiCheatingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiCheatingDemoUITests.m; sourceTree = "<group>"; };
+		B344E2EE1F0C86EC00F3AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B344E2FA1F0C870A00F3AF9C /* InnoRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnoRuntime.m; sourceTree = "<group>"; };
+		B344E2FB1F0C870A00F3AF9C /* UIApplication+InnoEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+InnoEvent.m"; sourceTree = "<group>"; };
+		B344E2FC1F0C870A00F3AF9C /* UIApplication+InnoEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+InnoEvent.h"; sourceTree = "<group>"; };
+		B344E2FD1F0C870A00F3AF9C /* InnoRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnoRuntime.h; sourceTree = "<group>"; };
+		B344E3011F0C8CD900F3AF9C /* TouchEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEventViewController.h; sourceTree = "<group>"; };
+		B344E3021F0C8CD900F3AF9C /* TouchEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchEventViewController.m; sourceTree = "<group>"; };
+		B344E3071F0C94AA00F3AF9C /* AntiCheatingDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AntiCheatingDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B344E3081F0C94AB00F3AF9C /* JailBrokenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailBrokenViewController.swift; sourceTree = "<group>"; };
+		B344E3131F0E148E00F3AF9C /* JailBroken_CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JailBroken_CViewController.h; sourceTree = "<group>"; };
+		B344E3141F0E148E00F3AF9C /* JailBroken_CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JailBroken_CViewController.m; sourceTree = "<group>"; };
+		B36739271F20A7C2005D1084 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B36739281F20A7C2005D1084 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B3862B621F204EA50028E6C7 /* BaseInfo_CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInfo_CViewController.h; sourceTree = "<group>"; };
+		B3862B631F204EA50028E6C7 /* BaseInfo_CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInfo_CViewController.m; sourceTree = "<group>"; };
+		B3AE2B801F1331C200B034D8 /* BaseInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B344E2C11F0C86EC00F3AF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B344E2DA1F0C86EC00F3AF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B344E2E51F0C86EC00F3AF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B344E2BB1F0C86EC00F3AF9C = {
+			isa = PBXGroup;
+			children = (
+				B344E2C61F0C86EC00F3AF9C /* AntiCheatingDemo */,
+				B344E2E01F0C86EC00F3AF9C /* AntiCheatingDemoTests */,
+				B344E2EB1F0C86EC00F3AF9C /* AntiCheatingDemoUITests */,
+				B344E2C51F0C86EC00F3AF9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B344E2C51F0C86EC00F3AF9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B344E2C41F0C86EC00F3AF9C /* AntiCheatingDemo.app */,
+				B344E2DD1F0C86EC00F3AF9C /* AntiCheatingDemoTests.xctest */,
+				B344E2E81F0C86EC00F3AF9C /* AntiCheatingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B344E2C61F0C86EC00F3AF9C /* AntiCheatingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B3AE2B7B1F13302700B034D8 /* BaseInfo */,
+				B344E3041F0C903200F3AF9C /* JailBroken */,
+				B344E3001F0C870F00F3AF9C /* TouchEvent */,
+				B344E2CA1F0C86EC00F3AF9C /* AppDelegate.h */,
+				B344E2CB1F0C86EC00F3AF9C /* AppDelegate.m */,
+				B344E2CD1F0C86EC00F3AF9C /* ViewController.h */,
+				B344E2CE1F0C86EC00F3AF9C /* ViewController.m */,
+				B344E2D01F0C86EC00F3AF9C /* Main.storyboard */,
+				B344E2D31F0C86EC00F3AF9C /* Assets.xcassets */,
+				B344E2D51F0C86EC00F3AF9C /* LaunchScreen.storyboard */,
+				B344E2D81F0C86EC00F3AF9C /* Info.plist */,
+				B344E2C71F0C86EC00F3AF9C /* Supporting Files */,
+			);
+			path = AntiCheatingDemo;
+			sourceTree = "<group>";
+		};
+		B344E2C71F0C86EC00F3AF9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B344E2C81F0C86EC00F3AF9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B344E2E01F0C86EC00F3AF9C /* AntiCheatingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B344E2E11F0C86EC00F3AF9C /* AntiCheatingDemoTests.m */,
+				B344E2E31F0C86EC00F3AF9C /* Info.plist */,
+			);
+			path = AntiCheatingDemoTests;
+			sourceTree = "<group>";
+		};
+		B344E2EB1F0C86EC00F3AF9C /* AntiCheatingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B344E2EC1F0C86EC00F3AF9C /* AntiCheatingDemoUITests.m */,
+				B344E2EE1F0C86EC00F3AF9C /* Info.plist */,
+			);
+			path = AntiCheatingDemoUITests;
+			sourceTree = "<group>";
+		};
+		B344E3001F0C870F00F3AF9C /* TouchEvent */ = {
+			isa = PBXGroup;
+			children = (
+				B344E2FD1F0C870A00F3AF9C /* InnoRuntime.h */,
+				B344E2FA1F0C870A00F3AF9C /* InnoRuntime.m */,
+				B344E2FC1F0C870A00F3AF9C /* UIApplication+InnoEvent.h */,
+				B344E2FB1F0C870A00F3AF9C /* UIApplication+InnoEvent.m */,
+				B344E3011F0C8CD900F3AF9C /* TouchEventViewController.h */,
+				B344E3021F0C8CD900F3AF9C /* TouchEventViewController.m */,
+			);
+			name = TouchEvent;
+			sourceTree = "<group>";
+		};
+		B344E3041F0C903200F3AF9C /* JailBroken */ = {
+			isa = PBXGroup;
+			children = (
+				B344E3071F0C94AA00F3AF9C /* AntiCheatingDemo-Bridging-Header.h */,
+				B344E3081F0C94AB00F3AF9C /* JailBrokenViewController.swift */,
+				B344E3131F0E148E00F3AF9C /* JailBroken_CViewController.h */,
+				B344E3141F0E148E00F3AF9C /* JailBroken_CViewController.m */,
+			);
+			name = JailBroken;
+			sourceTree = "<group>";
+		};
+		B3AE2B7B1F13302700B034D8 /* BaseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B36739271F20A7C2005D1084 /* Reachability.h */,
+				B36739281F20A7C2005D1084 /* Reachability.m */,
+				B3AE2B801F1331C200B034D8 /* BaseInfoViewController.swift */,
+				B3862B621F204EA50028E6C7 /* BaseInfo_CViewController.h */,
+				B3862B631F204EA50028E6C7 /* BaseInfo_CViewController.m */,
+			);
+			name = BaseInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B344E2C31F0C86EC00F3AF9C /* AntiCheatingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B344E2F11F0C86EC00F3AF9C /* Build configuration list for PBXNativeTarget "AntiCheatingDemo" */;
+			buildPhases = (
+				B344E2C01F0C86EC00F3AF9C /* Sources */,
+				B344E2C11F0C86EC00F3AF9C /* Frameworks */,
+				B344E2C21F0C86EC00F3AF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntiCheatingDemo;
+			productName = AntiCheatingDemo;
+			productReference = B344E2C41F0C86EC00F3AF9C /* AntiCheatingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B344E2DC1F0C86EC00F3AF9C /* AntiCheatingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B344E2F41F0C86EC00F3AF9C /* Build configuration list for PBXNativeTarget "AntiCheatingDemoTests" */;
+			buildPhases = (
+				B344E2D91F0C86EC00F3AF9C /* Sources */,
+				B344E2DA1F0C86EC00F3AF9C /* Frameworks */,
+				B344E2DB1F0C86EC00F3AF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B344E2DF1F0C86EC00F3AF9C /* PBXTargetDependency */,
+			);
+			name = AntiCheatingDemoTests;
+			productName = AntiCheatingDemoTests;
+			productReference = B344E2DD1F0C86EC00F3AF9C /* AntiCheatingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B344E2E71F0C86EC00F3AF9C /* AntiCheatingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B344E2F71F0C86EC00F3AF9C /* Build configuration list for PBXNativeTarget "AntiCheatingDemoUITests" */;
+			buildPhases = (
+				B344E2E41F0C86EC00F3AF9C /* Sources */,
+				B344E2E51F0C86EC00F3AF9C /* Frameworks */,
+				B344E2E61F0C86EC00F3AF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B344E2EA1F0C86EC00F3AF9C /* PBXTargetDependency */,
+			);
+			name = AntiCheatingDemoUITests;
+			productName = AntiCheatingDemoUITests;
+			productReference = B344E2E81F0C86EC00F3AF9C /* AntiCheatingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B344E2BC1F0C86EC00F3AF9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = leo;
+				TargetAttributes = {
+					B344E2C31F0C86EC00F3AF9C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4T3V6PQU3W;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					B344E2DC1F0C86EC00F3AF9C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4T3V6PQU3W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B344E2C31F0C86EC00F3AF9C;
+					};
+					B344E2E71F0C86EC00F3AF9C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4T3V6PQU3W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B344E2C31F0C86EC00F3AF9C;
+					};
+				};
+			};
+			buildConfigurationList = B344E2BF1F0C86EC00F3AF9C /* Build configuration list for PBXProject "AntiCheatingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B344E2BB1F0C86EC00F3AF9C;
+			productRefGroup = B344E2C51F0C86EC00F3AF9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B344E2C31F0C86EC00F3AF9C /* AntiCheatingDemo */,
+				B344E2DC1F0C86EC00F3AF9C /* AntiCheatingDemoTests */,
+				B344E2E71F0C86EC00F3AF9C /* AntiCheatingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B344E2C21F0C86EC00F3AF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B344E2D71F0C86EC00F3AF9C /* LaunchScreen.storyboard in Resources */,
+				B344E2D41F0C86EC00F3AF9C /* Assets.xcassets in Resources */,
+				B344E2D21F0C86EC00F3AF9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B344E2DB1F0C86EC00F3AF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B344E2E61F0C86EC00F3AF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B344E2C01F0C86EC00F3AF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AE2B811F1331C200B034D8 /* BaseInfoViewController.swift in Sources */,
+				B3862B641F204EA50028E6C7 /* BaseInfo_CViewController.m in Sources */,
+				B344E2FE1F0C870A00F3AF9C /* InnoRuntime.m in Sources */,
+				B36739291F20A7C2005D1084 /* Reachability.m in Sources */,
+				B344E3151F0E148E00F3AF9C /* JailBroken_CViewController.m in Sources */,
+				B344E3091F0C94AB00F3AF9C /* JailBrokenViewController.swift in Sources */,
+				B344E3031F0C8CD900F3AF9C /* TouchEventViewController.m in Sources */,
+				B344E2FF1F0C870A00F3AF9C /* UIApplication+InnoEvent.m in Sources */,
+				B344E2CF1F0C86EC00F3AF9C /* ViewController.m in Sources */,
+				B344E2CC1F0C86EC00F3AF9C /* AppDelegate.m in Sources */,
+				B344E2C91F0C86EC00F3AF9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B344E2D91F0C86EC00F3AF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B344E2E21F0C86EC00F3AF9C /* AntiCheatingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B344E2E41F0C86EC00F3AF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B344E2ED1F0C86EC00F3AF9C /* AntiCheatingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B344E2DF1F0C86EC00F3AF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B344E2C31F0C86EC00F3AF9C /* AntiCheatingDemo */;
+			targetProxy = B344E2DE1F0C86EC00F3AF9C /* PBXContainerItemProxy */;
+		};
+		B344E2EA1F0C86EC00F3AF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B344E2C31F0C86EC00F3AF9C /* AntiCheatingDemo */;
+			targetProxy = B344E2E91F0C86EC00F3AF9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B344E2D01F0C86EC00F3AF9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B344E2D11F0C86EC00F3AF9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B344E2D51F0C86EC00F3AF9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B344E2D61F0C86EC00F3AF9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B344E2EF1F0C86EC00F3AF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B344E2F01F0C86EC00F3AF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B344E2F21F0C86EC00F3AF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4T3V6PQU3W;
+				INFOPLIST_FILE = AntiCheatingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.AntiCheatingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AntiCheatingDemo/AntiCheatingDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B344E2F31F0C86EC00F3AF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4T3V6PQU3W;
+				INFOPLIST_FILE = AntiCheatingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.AntiCheatingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AntiCheatingDemo/AntiCheatingDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B344E2F51F0C86EC00F3AF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4T3V6PQU3W;
+				INFOPLIST_FILE = AntiCheatingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.AntiCheatingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntiCheatingDemo.app/AntiCheatingDemo";
+			};
+			name = Debug;
+		};
+		B344E2F61F0C86EC00F3AF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4T3V6PQU3W;
+				INFOPLIST_FILE = AntiCheatingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.AntiCheatingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntiCheatingDemo.app/AntiCheatingDemo";
+			};
+			name = Release;
+		};
+		B344E2F81F0C86EC00F3AF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4T3V6PQU3W;
+				INFOPLIST_FILE = AntiCheatingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.AntiCheatingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AntiCheatingDemo;
+			};
+			name = Debug;
+		};
+		B344E2F91F0C86EC00F3AF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4T3V6PQU3W;
+				INFOPLIST_FILE = AntiCheatingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.AntiCheatingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AntiCheatingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B344E2BF1F0C86EC00F3AF9C /* Build configuration list for PBXProject "AntiCheatingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B344E2EF1F0C86EC00F3AF9C /* Debug */,
+				B344E2F01F0C86EC00F3AF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B344E2F11F0C86EC00F3AF9C /* Build configuration list for PBXNativeTarget "AntiCheatingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B344E2F21F0C86EC00F3AF9C /* Debug */,
+				B344E2F31F0C86EC00F3AF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B344E2F41F0C86EC00F3AF9C /* Build configuration list for PBXNativeTarget "AntiCheatingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B344E2F51F0C86EC00F3AF9C /* Debug */,
+				B344E2F61F0C86EC00F3AF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B344E2F71F0C86EC00F3AF9C /* Build configuration list for PBXNativeTarget "AntiCheatingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B344E2F81F0C86EC00F3AF9C /* Debug */,
+				B344E2F91F0C86EC00F3AF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B344E2BC1F0C86EC00F3AF9C /* Project object */;
+}
