@@ -76,7 +76,7 @@
     NSLog(@"major :%f",major);
     float majorToler = touch.majorRadiusTolerance;
     NSLog(@"majorToler : %f",majorToler);
-    NSLog(@"    touch.tapCount = %lu", (unsigned long)touch.tapCount);// 触控次数
+    NSLog(@"    touch.tapCount = %lu", (unsigned long)touch.tapCount);// 同一点触控次数 如： 单击 双击
     NSLog(@"touch.timestamp : %f",touch.timestamp); //触摸时间
     switch (touch.type) {
         case UITouchTypeDirect: //直接触摸屏幕
